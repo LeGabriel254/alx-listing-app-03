@@ -1,6 +1,7 @@
 'use client';
 
-import React, { useState } from 'react';
+import React from 'react';
+import { useState } from 'react'
 import Pill from '@/components/layout/pill';
 
 const FILTERS = ['Top Villa', 'Self Checkin', 'Free WiFi', 'Pet Friendly', 'Ocean View', 'Parking'];
