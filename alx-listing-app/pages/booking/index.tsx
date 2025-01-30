@@ -14,7 +14,7 @@ export default function BookingPage() {
     <div className="container mx-auto p-6">
       <div className="grid grid-cols-2 gap-6">
         <BookingForm />
-        {/* <OrderSummary bookingDetails={bookingDetails} /> */}
+        <OrderSummary bookingDetails={bookingDetails} />
       </div>
     </div>
   );
