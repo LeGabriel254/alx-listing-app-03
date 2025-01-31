@@ -1,4 +1,5 @@
 import BookingForm from "@/components/booking/BookingForm";
+import CancellationPolicy from "@/components/booking/CancellationPolicy";
 import OrderSummary from "@/components/booking/OrderSummary";
 
 export default function BookingPage() {
@@ -15,6 +16,8 @@ export default function BookingPage() {
       <div className="grid grid-cols-2 gap-6">
         <BookingForm />
         <OrderSummary bookingDetails={bookingDetails} />
+          {/* Cancellation Policy and Ground Rules */}
+        <CancellationPolicy />
       </div>
     </div>
   );
